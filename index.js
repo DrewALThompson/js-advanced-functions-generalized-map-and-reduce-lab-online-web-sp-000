@@ -11,6 +11,6 @@ function reduce (obj, callback, accum){
   for (let i = 0; i < obj.length; i++){
     accum = callback(accum, obj[i]);
   }
-  console.log(accum);
+  console.log(!!true);
   return accum;
 }
