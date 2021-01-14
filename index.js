@@ -8,7 +8,5 @@ function map (obj, change){
 
 function reduce (obj, change, accum){
   accum = obj[0] || 0;
-  for (const key in obj){
-    accum += obj[key];
-  }
+  for (let i = 0; i < )
 }
