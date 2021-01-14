@@ -8,6 +8,6 @@ function map (obj, change){
 
 function reduce (obj, change, accum){
   for (const key in obj){
-    accum += obj
+    accum += obj[key];
   }
 }
