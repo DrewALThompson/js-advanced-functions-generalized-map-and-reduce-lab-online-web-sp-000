@@ -3,5 +3,5 @@ function map (obj, change){
   for (const key in obj){
     newArr.push(change(obj[key]))
   }
-  newArr;
+  return newArr;
 }
