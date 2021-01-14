@@ -5,3 +5,5 @@ function map (obj, change){
   }
   return newArr;
 }
+
+function reduce (obj, change, total)
