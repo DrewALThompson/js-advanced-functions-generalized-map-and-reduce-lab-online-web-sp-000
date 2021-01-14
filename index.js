@@ -1,4 +1,5 @@
-function map (obj, change, newArr = []){
+function map (obj, change){
+  let newArr = [];
   for (const key in obj){
     newArr.push(change(key));
   }
