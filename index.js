@@ -7,7 +7,10 @@ function map (obj, change){
 }
 
 function reduce (obj, change, accum){
-  let accum;
-  accum?
-  for (let i = 0; i < )
+  let a;
+  accum? a = accum : a = 0;
+  for (let i = 0; i < obj.length; i++){
+    a+=(change(obj[i]));
+  }
+  a;
 }
