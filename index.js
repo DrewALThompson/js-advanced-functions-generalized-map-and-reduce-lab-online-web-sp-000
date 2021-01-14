@@ -1,1 +1,3 @@
-function map ()
+function map (newArr = [], obj, key){
+  
+}
