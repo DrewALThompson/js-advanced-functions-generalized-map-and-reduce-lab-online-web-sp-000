@@ -10,8 +10,7 @@ function reduce (obj, callback, accum){
   let a;
   accum? a = accum : a = 0;
   for (let i = 0; i < obj.length; i++){
-    a = callback(obj)
-    console.log(a);
+    a = callback(a, obj[i])
   }
-  a;
+  return a;
 }
