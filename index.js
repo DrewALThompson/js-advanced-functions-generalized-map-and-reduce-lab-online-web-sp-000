@@ -7,7 +7,7 @@ function map (obj, callback){
 }
 
 function reduce (obj, callback, accum){
-  accum? accum : accum = 0 || false ;
+  accum? accum : accum = false;
   for (let i = 0; i < obj.length; i++){
     accum = callback(accum, obj[i])
   }
