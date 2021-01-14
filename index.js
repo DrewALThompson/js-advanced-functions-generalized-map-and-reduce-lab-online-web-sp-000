@@ -11,6 +11,7 @@ function reduce (obj, change, accum){
   accum? a = accum : a = 0;
   for (let i = 0; i < obj.length; i++){
     a+=(change(obj[i]));
+    console.log(a);
   }
   a;
 }
