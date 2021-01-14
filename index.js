@@ -10,7 +10,7 @@ function reduce (obj, callback, accum){
   accum? accum : accum = 0;
   for (let i = 0; i < obj.length; i++){
     accum = callback(accum, obj[i]);
-    console.log(Boolean('razzmatz'));
   }
   return accum;
+  console.log(accum);
 }
