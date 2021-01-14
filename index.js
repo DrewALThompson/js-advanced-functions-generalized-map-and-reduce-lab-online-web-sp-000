@@ -6,4 +6,8 @@ function map (obj, change){
   return newArr;
 }
 
-function reduce (obj, change, total)
+function reduce (obj, change, accum){
+  for (const key in obj){
+    accum += obj
+  }
+}
